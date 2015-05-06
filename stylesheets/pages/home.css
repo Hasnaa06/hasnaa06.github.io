@@ -1,0 +1,42 @@
+/* line 3, /Users/hasnaaguessous/Code/My Souk in the city/hasnaa06.github.io/source/stylesheets/pages/home.css.scss */
+body {
+  background: url("../../images/poster.jpg") no-repeat center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover; }
+
+@media screen and (max-device-width: 480px) {
+  /* line 13, /Users/hasnaaguessous/Code/My Souk in the city/hasnaa06.github.io/source/stylesheets/pages/home.css.scss */
+  body {
+    background-size: 100%; } }
+/* line 18, /Users/hasnaaguessous/Code/My Souk in the city/hasnaa06.github.io/source/stylesheets/pages/home.css.scss */
+.video {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 55%;
+  position: relative; }
+
+/* line 26, /Users/hasnaaguessous/Code/My Souk in the city/hasnaa06.github.io/source/stylesheets/pages/home.css.scss */
+.video iframe {
+  position: fixed;
+  right: 40px;
+  bottom: 18%;
+  width: 45%;
+  height: 60%; }
+
+/* line 34, /Users/hasnaaguessous/Code/My Souk in the city/hasnaa06.github.io/source/stylesheets/pages/home.css.scss */
+#mc_embed_signup {
+  background: transparent;
+  font: 14px RobotoCondensed-regular;
+  position: fixed;
+  width: 45%;
+  height: 20%;
+  right: 50px;
+  bottom: -20px; }
+
+/* line 44, /Users/hasnaaguessous/Code/My Souk in the city/hasnaa06.github.io/source/stylesheets/pages/home.css.scss */
+#mc_embed_signup_scroll {
+  display: inline-block; }

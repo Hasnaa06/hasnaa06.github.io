@@ -1,0 +1,46 @@
+
+
+body {
+  background: image-url('poster.jpg') no-repeat center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  -ms-background-size: cover;
+}
+
+@media screen and (max-device-width: 480px) {
+body {
+background-size: 100%;
+}
+}
+
+.video {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 55%;
+  position: relative;
+}
+
+.video iframe {
+  position: fixed;
+  right: 40px;
+  bottom: 18%;
+  width: 45%;
+  height: 60%;
+}
+
+#mc_embed_signup {
+  background: transparent; 
+  font:14px RobotoCondensed-regular; 
+  position: fixed;
+  width: 45%;
+  height: 20%;
+  right: 50px;
+  bottom: -20px;
+}
+
+#mc_embed_signup_scroll {
+  display: inline-block;
+}

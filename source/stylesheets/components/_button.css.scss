@@ -1,0 +1,16 @@
+.btn{
+	color: white;
+	bg-color: $blue;
+	padding: 8px 8px;
+	border-radius: 5px;
+	font-size: 15px;
+	&:hover {
+		text-decoration: none;
+		color: $gray-light;	
+	}
+	&btn:active {
+		transform: translate(0px,5px);
+  		-webkit-transform: translate(0px,5px);
+		border-bottom: 2px solid;
+	}
+}

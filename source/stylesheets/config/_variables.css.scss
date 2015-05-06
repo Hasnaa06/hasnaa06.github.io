@@ -1,0 +1,50 @@
+/* -------------------------------------
+ * Fonts
+ * ------------------------------------- */
+// Google fonts
+@import url("https://www.google.com/fonts#UsePlace:use/Collection:Roboto+Condensed:300italic,400italic,700italic,400,300,700");
+$base-font: "RobotoCondesed-regular";
+$header-font: "RobotoCondensed-bold";
+
+	@font-face {
+   font-family: "RobotoCondensed-regular" format('truetype');
+   src: font-url('RobotoCondensed-regular.ttf'),
+ }
+// $my-font: "Font Name";
+
+	@font-face {
+   font-family: "RobotoCondensed-light";
+	font-weight: light;
+	src: font-url('RobotoCondensed-light.ttf')format('truetype');
+ }
+@font-face {
+   font-family: "RobotoCondensed-bold";
+  font-weight: light;
+  src: font-url('RobotoCondensed-bold.ttf')format('truetype');
+ }
+
+// $my-font: "Font Name";
+
+
+// Font-size and line-height
+$base-size: 16px;
+$base-height: 1.4;
+
+/* -------------------------------------
+ * Colors
+ * ------------------------------------- */
+// Scheme
+$pink: #f2a7a2;
+$blue: #005c9e;
+$yellow: #fdd592;
+$orange: #f4994a;
+$scuba: #00b1cc;
+$purple: #b05a58;
+$gray: #d4dbde;
+
+// Gray scale
+$gray-darker:  lighten(#000, 13.5%); // #222
+$gray-dark:    lighten(#000, 20%);   // #333
+$gray:         lighten(#000, 33.5%); // #555
+$gray-light:   lighten(#000, 80%); // #777
+$gray-lighter: lighten(#000, 93.5%); // #eee
